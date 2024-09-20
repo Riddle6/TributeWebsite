@@ -1,0 +1,109 @@
+/* Font families:
+"Inter"
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,300&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body */
+
+body {
+    background-color: #000;
+}
+
+img {
+    display: block;
+    float: right;
+
+}
+
+h2 {
+    margin-top: 8%;
+    font-size: 3.1em;
+    margin-bottom: 1%;
+    background-color: #2c2424;
+    padding: 1%;
+    color: #907373;
+}
+
+nav {
+    clear: both;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    float: left;
+    padding: 1%;
+    margin: 1.5%;
+    margin-left: 12%;
+    font-size: 3em;
+    color: #fff
+}
+
+nav li a:hover {
+    background-color: #2f2e2e;
+    color: #fff;
+}
+
+h1 {
+    padding: 3%;
+    clear: both;
+    text-align: center;
+    background-color: #1f1919;
+    color: #fff
+}
+
+h3 {
+    text-align: left;
+    font-size: 3em;
+    padding: 3%;
+    margin: 4%;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+
+h4 {
+    clear: both;
+    text-align: center;
+    margin-top: 1%;
+    background-color: #1f1919;
+    color: #907373;
+    padding: 0.5%;
+}
+
+main {
+    clear: both;
+}
+
+main p {
+    font-family: "Inter", sans-serif;
+    margin-left: 3%;
+    margin-right: 20%;
+    font-size: 1.75em;
+    background-color: #8d7575;
+    border-radius: 12px;
+    padding: 1%;
+    margin-bottom: 3%;
+    color: #000;
+    margin-top: 3%;
+}
+
+
+footer {
+    background-color: #fff;
+    padding: 5%;
+    margin: 1%;
+    text-align: center;
+    font-weight: bold;
+}
